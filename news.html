@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kathmandu news</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=IBM+Plex+Sans:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+
+<div class="utility">
+  <div class="wrap">
+    <div class="left">
+      <span>Kathmandu 24°C, Clear</span>
+    </div>
+    <div class="right">
+      <a href="#">ePaper</a>
+      <a href="#">नेपाली</a>
+      <a href="#">Sign in</a>
+      <a href="#" style="color:#D98C3C;font-weight:600;">Subscribe</a>
+    </div>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="kicker">Nepal's independent morning read — est. 2026</div>
+  <h1>Kathmandu news <span style="font-family:'Fraunces',serif;font-weight:400;font-style:italic;font-size:0.32em;color:var(--ink-soft);vertical-align:middle;"></span></h1>
+  <div class="sub">Voice of the Himalaya — news, business &amp; culture from Kathmandu and beyond</div>
+  <svg class="skyline" viewBox="0 0 1200 60" preserveAspectRatio="none">
+    <path d="M0,50 L120,50 L180,15 L230,50 L340,50 L400,25 L460,50 L560,50 L610,10 L670,50 L780,50 L830,30 L880,50 L980,50 L1040,20 L1100,50 L1200,50" />
+  </svg>
+</header>
+
+<nav class="primary">
+  <div class="wrap">
+    <div class="navlinks" id="navlinks">
+      <a href="#">Front Page</a>
+      <a href="#politics">Politics</a>
+      <a href="#business">Business</a>
+      <a href="#opinion">Opinion</a>
+      <a href="#sports">Sports</a>
+      <a href="#entertainment">Culture</a>
+      <a href="#">World</a>
+      <a href="#">Technology</a>
+      <a href="#">Health</a>
+      <a href="#province">Province</a>
+      <a href="#">Photo</a>
+      <a href="#">Video</a>
+    </div>
+    <div class="navmeta">
+      <span>🔍 Search</span>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </div>
+</nav>
+
+<div class="ticker">
+  <div class="tag"><span class="pulse"></span>Now</div>
+  <div class="ticker-track-wrap">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-grid">
+      <article class="lead">
+        <div class="art" style="--c1:#8a2f2f;--c2:#3d1414;">
+          <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg"><path d="M0,220 L60,140 L110,190 L170,90 L230,190 L290,120 L360,220 L400,180 L400,260 L0,260 Z" fill="rgba(255,255,255,0.18)"/><circle cx="330" cy="60" r="26" fill="rgba(255,255,255,0.22)"/></svg>
+          <img src="https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/money-finance/nrb-2572025090537-1000x0-2462026102424-1000x0.jpg" alt="">
+        </div>
+        <div class="eyebrow section-tag tag-politics">जनमतमा आजको प्रश्न</div>
+        <h2><a href="#">समितिका सदस्यहरूले अनुसन्धानमा  </a></h2>
+        <p class="dek">सरकारले पैदलयात्री र सवारी चालकसम्मलाई ५ सयदेखि एक लाख रुपैयाँसम्म जरिवाना गराउने गरी कानुन बनाउन विधेयकको मस्यौदा तयार पारेको छ । यो खबरमा तपाईंको मत के छ ?</p>
+        <div class="byline">By Anju Rai &nbsp;·&nbsp; 6 min read &nbsp;·&nbsp; Updated 2 hours ago</div>
+      </article>
+
+      <aside class="side-list">
+        <div class="story">
+          <div class="eyebrow tag-sports">जीवन बानियाँ</div>
+          <h3><a href="#">नेपाल–युरोप श्रम आप्रवासनका अवसर र चुनौती</a></h3>
+          <div class="story-meta">3 min read · 1 hr ago</div>
+        </div>
+        <div class="story">
+          <div class="eyebrow tag-business">साबित्रा दहाल</div>
+          <h3><a href="#">‘पहिचानविहीन’ सामुदायिक क्याम्पसका शिक्षक</a></h3>
+          <div class="story-meta">4 min read · 3 hrs ago</div>
+        </div>
+        <div class="story">
+          <div class="eyebrow tag-world">राजुप्रसाद चापागाईं,नीराजन थपलिया</div>
+          <h3><a href="#">उठिबासको ऐनामा राज्यको अनुहार</a></h3>
+          <div class="story-meta">5 min read · 4 hrs ago</div>
+        </div>
+        <div class="story">
+          <div class="eyebrow tag-entertainment">दीपक रौनियार</div>
+          <h3><a href="#">ऊर्जादेखि एआई अर्थतन्त्रसम्म नेपाल </a></h3>
+          <div class="story-meta">7 min read · 5 hrs ago</div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <div class="content-grid">
+    <!-- MAIN COLUMN -->
+    <div class="main-col">
+
+      <!-- POLITICS -->
+      <section class="cat-block" id="politics">
+        <div class="section-head">
+          <h2><span class="swatch" style="background:var(--crimson)"></span>Politics</h2>
+          <a class="more" href="#">More Politics →</a>
+        </div>
+        <div class="cat-lead">
+          <div class="art" style="--c1:#7a3030;--c2:#2c1010;">
+            <svg viewBox="0 0 300 220"><rect x="30" y="60" width="240" height="130" fill="rgba(255,255,255,.15)"/><rect x="60" y="90" width="30" height="100" fill="rgba(255,255,255,.2)"/><rect x="140" y="90" width="30" height="100" fill="rgba(255,255,255,.2)"/><rect x="210" y="90" width="30" height="100" fill="rgba(255,255,255,.2)"/></svg>
+            <img src="https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/miscellaneous/img8021-0272026051044-1000x0.jpg" alt="">
+          </div>
+          <div>
+            <div class="eyebrow tag-politics">Analysis</div>
+            <h3><a href="#">क्रोएसियामाथि पोर्चुगलको सनसनीपूर्ण जित</a></h3>
+            <p>अब क्वाटरफाइनल प्रवेशका लागि पोर्चुगलले स्पेनको सामना गर्नेछ । तोकिएको क्षेत्रमा खराब कर्जा धेरै हुनुका साथै उद्देश्यअनुसार नतिजा नआएपछि बैंक तथा वित्तीय संस्थाले अनिवार्य कर्जा विस्तार गर्नुपर्ने क्षेत्रको दायरा पनि परिमार्जन।</p>
+          </div>
+        </div>
+        <ul class="cat-list">
+          <li><h4><a href="#">एमालेका पूर्वसांसद लक्ष्मी महतो कोइरी पक्राउ</a></h4><div class="story-meta">2 hrs ago</div></li>
+          <li><h4><a href="#">पूर्वसांसद कोइरी र शर्मालाई पाँच वर्ष कैद</a></h4><div class="story-meta">4 hrs ago</div></li>
+          <li><h4><a href="#">असई विक मृत्यु प्रकरणः पूर्वसांसद महतोसहित छ जनालाई पाँच वर्ष कैद, तीन जनालाई जन्मकैद सजाय</a></h4><div class="story-meta">6 hrs ago</div></li>
+        </ul>
+      </section>
+
+      <!-- BUSINESS -->
+      <section class="cat-block" id="business">
+        <div class="section-head">
+          <h2><span class="swatch" style="background:var(--indigo)"></span>Business</h2>
+          <a class="more" href="#">More Business →</a>
+        </div>
+        <div class="cat-lead">
+          <div class="art" style="--c1:#2f4858;--c2:#152530;">
+            <svg viewBox="0 0 300 220"><polyline points="20,180 70,140 110,160 150,90 190,120 230,60 280,90" fill="none" stroke="rgba(255,255,255,.4)" stroke-width="4"/></svg>
+            <img src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/money-finance/tower-telicom-26122025014945-1000x0-0372026025503-1000x0.jpg&w=701&h=0" alt="">
+          </div>
+          <div>
+            <div class="eyebrow tag-business">Markets</div>
+            <h3><a href="#">राज्य व्यवस्था समितिका सदस्यहरूले अख्तियारले अनुसन्धान गरिरहेका फाइल हेर्न खोजेपछि…</a></h3>
+            <p>समितिका सदस्यहरूले अनुसन्धानमा रहेका फाइलहरू हेर्न पाउनुपर्ने जिकिर गर्दा अख्तियारको इटहरी कार्यालय प्रमुखले भने कानुनी गोपनीयता देखाउँदै फाइल नदेखाउने अडान</p>
+          </div>
+        </div>
+        <ul class="cat-list">
+          <li><h4><a href="#">विपद् पूर्वतयारीमा छैन ध्यान, मनसुन सुरु भएपछि बल्ल चटारो</a></h4><div class="story-meta">3 hrs ago</div></li>
+          <li><h4><a href="#">बर्खा सुरु भएलगत्तै बाढी, डुबान र पहिरोको त्रास देशभर बढेको छ, तर पूर्वतयारी र स्रोत–साधनको अभावले जोखिम न्यूनीकरणमा चुनौती थपिएको छ।</a></h4><div class="story-meta">5 hrs ago</div></li>
+          <li><h4><a href="#">मनसुन देशभर फैलियो, विपद् प्रतिकार्यका लागि हाई अलर्टमा सुरक्षा निकाय</a></h4><div class="story-meta">8 hrs ago</div></li>
+        </ul>
+      </section>
+
+      <!-- SPORTS -->
+      <section class="cat-block" id="sports">
+        <div class="section-head">
+          <h2><span class="swatch" style="background:var(--forest)"></span>Sports</h2>
+          <a class="more" href="#">More Sports →</a>
+        </div>
+        <div class="cat-lead">
+          <div class="art" style="--c1:#3b5d3a;--c2:#152916;">
+            <svg viewBox="0 0 300 220"><circle cx="150" cy="110" r="55" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="4"/><line x1="150" y1="55" x2="150" y2="165" stroke="rgba(255,255,255,.25)" stroke-width="2"/></svg>
+            <img src="https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/miscellaneous/bipad-4-0272026025305-1000x0.jpg" alt="">
+          </div>
+          <div>
+            <div class="eyebrow tag-sports">hot news</div>
+            <h3><a href="#">राष्ट्र बैंकले तोकेकै क्षेत्रमा अत्यधिक खराब कर्जा</a></h3>
+            <p>तोकिएको क्षेत्रमा खराब कर्जा धेरै हुनुका साथै उद्देश्यअनुसार नतिजा नआएपछि बैंक तथा वित्तीय संस्थाले अनिवार्य कर्जा विस्तार गर्नुपर्ने क्षेत्रको दायरा पनि परिमार्जन।</p>
+          </div>
+        </div>
+        <ul class="cat-list">
+          <li><h4><a href="#">गैरबैंकिङ सम्पत्ति र खराब कर्जा व्यवस्थापन गर्न सम्पत्ति व्यवस्था कम्पनी स्थापना गरिने</a></h4><div class="story-meta">1 hr ago</div></li>
+          <li><h4><a href="#">बैंकको खराब कर्जा व्यवस्थापन गर्न छुट्टै कम्पनी स्थापना गरिँदै</a></h4><div class="story-meta">6 hrs ago</div></li>
+          <li><h4><a href="#">बैंकको खराब कर्जा बढ्दा नाफामा धक्का</a></h4><div class="story-meta">yesterday</div></li>
+        </ul>
+      </section>
+
+      <!-- CULTURE / ENTERTAINMENT -->
+      <section class="cat-block" id="entertainment">
+        <div class="section-head">
+          <h2><span class="swatch" style="background:#A15A2E"></span>Culture &amp; Entertainment</h2>
+          <a class="more" href="#">More Culture →</a>
+        </div>
+        <div class="cat-lead">
+          <div class="art" style="--c1:#a15a2e;--c2:#3a2010;">
+            <svg viewBox="0 0 300 220"><rect x="50" y="40" width="200" height="140" fill="none" stroke="rgba(255,255,255,.3)" stroke-width="3"/><line x1="50" y1="110" x2="250" y2="110" stroke="rgba(255,255,255,.2)" stroke-width="2"/></svg>
+            <img src="https://assets-cdn-api.ekantipur.com/thumb.php?src=https://assets-cdn.ekantipur.com/uploads/source/news/kantipur/2026/third-party/dailekh-accident-0272026103538-1000x0.jpg&w=701&h=0" alt="">
+          </div>
+          <div>
+            <div class="eyebrow tag-entertainment">Arts</div>
+            <h3><a href="#">सम्बन्धविच्छेद : आमाबुबाको विछोड, सन्तानलाई चोट </a></h3>
+            <p>सम्बन्धविच्छेदलाई कानुनी प्रक्रिया मात्र नभई बालबालिकाको अधिकार, मानसिक स्वास्थ्य र भविष्यसँग जोडिएको सामाजिक मुद्दाका रूपमा हेर्नुपर्ने सम्बन्धित क्षेत्रका विज्ञ</p>
+          </div>
+        </div>
+        <ul class="cat-list">
+          <li><h4><a href="#">सम्बन्धविच्छेद दर स्वाभाविक कि अस्वाभाविक ?</a></h4><div class="story-meta">2 hrs ago</div></li>
+          <li><h4><a href="#">विदेशमा भएको सम्बन्धविच्छेदलाई नेपाली अदालतबाट पनि मान्यता</a></h4><div class="story-meta">yesterday</div></li>
+          <li><h4><a href="#">सम्बन्धविच्छेद दर स्वाभाविक कि अस्वाभाविक </a></h4><div class="story-meta">2 days ago</div></li>
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar-col">
+
+      <div class="weather-card">
+        <div class="city">KATHMANDU <span style="font-weight:400;color:var(--ink-soft);">Mangsir 17</span></div>
+        <div class="temp">24° <span>Clear, feels like 25°</span></div>
+        <div class="grid3">
+          <div>Wed<b>26°</b></div>
+          <div>Thu<b>23°</b></div>
+          <div>Fri<b>22°</b></div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="section-head">
+          <h2>Most Read</h2>
+        </div>
+        <ol class="rank-list">
+          <li><div><div class="eyebrow tag-entertainment">Culture</div><h4><a href="#">जुम्ला विमानस्थल छेउको सार्वजनिक जग्गाको अतिक्रमण हटाइयो</a></h4><div class="story-meta">2 hrs ago</div></div></li>
+          <li><div><div class="eyebrow tag-politics">Politics</div><h4><a href="#">रम्भामा कोदो रोप्नेलाई प्रतिरोपनी दुई हजार अनुदान</a></h4><div class="story-meta">4 hrs ago</div></div></li>
+          <li><div><div class="eyebrow tag-business">Business</div><h4><a href="#">मकवानपुरमा औषधि पसल अनुगमनलाई तीब्रता</a></h4><div class="story-meta">yesterday</div></div></li>
+          <li><div><div class="eyebrow tag-world">World</div><h4><a href="#">सिलिचोङमा पहिरोले दुई विद्यालयसहित ३७ घरमा उच्च जोखिम</a></h4><div class="story-meta">yesterday</div></div></li>
+          <li><div><div class="eyebrow tag-sports">Sports</div><h4><a href="#">फापरबारीको कन्सर्न मेडिकललाई दुई लाख जरिवाना</a></h4><div class="story-meta">2 days ago</div></div></li>
+        </ol>
+      </div>
+
+      <div class="opinion-card" id="opinion">
+        <div class="eyebrow">Opinion</div>
+        <div class="writer">
+          <div class="avatar"><img src="https://picsum.photos/id/1005/80/80" alt="Opinion columnist"></div>
+          <div><div class="name">राजनीति</div><div class="role">Columnist, Public Policy</div></div>
+        </div>
+        <h3><a href="#">डिजिटल पूर्वाधारको विस्तार बढ्यो, उत्पादनशील प्रयोग बढेन</a></h3>
+        <p>तीन वर्षसम्म तथ्यांक अभावका कारण सूचकांकमा नसमेटिएको नेपाल यस पटक पुनरागमन गर्दै विश्व मानचित्रमा देखिएको हो ।</p>
+      </div>
+
+      <div class="newsletter">
+        <h3>The Morning Brief</h3>
+        <p>Seven headlines, one cup of tea. Delivered to your inbox before 7 AM, every day.</p>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="you@email.com" required>
+          <button type="submit">Sign up</button>
+        </form>
+        <div class="fine">No spam. Unsubscribe anytime.</div>
+      </div>
+
+    </aside>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h1>Kathmandu news</h1>
+        <p>Kathmandu news is an independent digital newsroom covering politics, business, sport and culture across Nepal's seven provinces, published daily out of Kathmandu.</p>
+        <div class="social" style="margin-top:18px;">
+          <a href="#">f</a><a href="#">x</a><a href="#">in</a><a href="#">yt</a>
+        </div>
+      </div>
+      <div>
+        <h5>Sections</h5>
+        <ul>
+          <li><a href="#">Politics</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">Sports</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Opinion</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>More</h5>
+        <ul>
+          <li><a href="#">World</a></li>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">Health</a></li>
+          <li><a href="#">Photo &amp; Video</a></li>
+          <li><a href="#">ePaper</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Company</h5>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Editorial Standards</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 Kathmandu news Digital Media Pvt. Ltd. All rights reserved.</div>
+      <div>Kathmandu, Nepal</div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
